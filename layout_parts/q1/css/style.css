@@ -6,6 +6,9 @@
   display: block;
   clear: both;
 }
+.float {
+  float: left;
+}
 .back-ground {
   width: 940px;
   margin: 0 auto;
@@ -16,8 +19,6 @@
   padding: 20px;
   margin-left: 20px;
   background-color: #3274ae;
-  float: left;
-
 }
 .circle:first-child {
   margin-left: 0;
