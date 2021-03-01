@@ -1,8 +1,16 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+@keyframes rotate_anime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .hover-effect {
-  transition: 0.5s;
+  transition:all 0.5s ease;
 }
 .q8-1_box {
   margin: 0 auto;
@@ -10,6 +18,7 @@
   width: 500px;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 .q8-1_box:hover img {
   transform: scale(1.5);
@@ -37,5 +46,35 @@
   padding: 20px;
   box-sizing: border-box;
   word-break: break-all;
+}
+.q8-2_circle {
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border: 10px solid #ecf1f2;
+  border-radius: 50%;
+  position: relative;
+}
+.circle_trimming {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+.circle_trimming::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  width: 100px;
+  content: "";
+  display: block;
+  border: 10px solid #00bcd4;
+  border-radius: 50%;
+}
+.load_animation {
+  animation: rotate_anime 1.1s linear infinite;
 }
 /* 回答はここに書いてね */
