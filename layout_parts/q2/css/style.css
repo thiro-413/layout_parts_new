@@ -1,26 +1,22 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.float-left {
-  float: left;
-}
-.float-right {
-  float: right;
-}
-.q2 {
+.q2-bcg {
   margin: 0 auto;
   padding: 20px;
   width: 940px;
   background-color: #eff3f4;
   box-sizing: border-box;
 }
-.box1 img {
+.box-top img {
   margin-right: 20px;
   margin-bottom: 10px;
+  float: left;
 }
-.box2 img {
+.box-under img {
   margin-left: 20px;
   margin-bottom: 10px;
+  float: right;
 }
 .text-box p {
   font-size: 18px;

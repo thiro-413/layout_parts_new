@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q3 {
+.q3-table {
   margin: 0 auto;
 }
 .meal {
@@ -23,13 +23,13 @@
   padding: 10px;
   border: solid #dedede 1px;
 }
-.meal tr:nth-child(2n+1) td{
+tbody tr:nth-child(2n) td{
   background-color: #ecf1f1f2;
 }
-.meal tr:last-child {
+tbody tr:last-child {
   border-top: dashed #000 2px;
 }
-.meal tr:last-child td {
+tbody tr:last-child td {
   vertical-align: middle;
 }
 /* 回答はここに書いてね */
