@@ -23,13 +23,13 @@
   padding: 10px;
   border: solid #dedede 1px;
 }
-tbody tr:nth-child(2n) td{
+.meal tbody tr:nth-child(2n) td{
   background-color: #ecf1f1f2;
 }
-tbody tr:last-child {
+.meal tbody tr:last-child {
   border-top: dashed #000 2px;
 }
-tbody tr:last-child td {
+.meal tbody tr:last-child td {
   vertical-align: middle;
 }
 /* 回答はここに書いてね */
